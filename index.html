@@ -3,15 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" >
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- подключение CSS файла Fancybox -->
     <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <title>Рыбное хозяйство "Овтеено"</title>
     <meta name="keywords" content="рыба, рыбное хозяйство,крестьянско-фермерское хозяйство, рыбхоз, карп, толстолобик, белый амур, карась, щука, сом, овтеено, Россошь, Воронежская область, рыба оптом, розница, Славянка, Никоноровка">
     <meta name="description" content="КФХ ОВТЕЕНО. Профиль: прудовое рыбоводство. Мы находимся: Воронежская обл. Россошанский район, между селами Славянка и Никоноровка. Телефоны: +7&nbsp;(47396)&nbsp;7-25-94;
     +7&nbsp;(920)&nbsp;423-42-50">
+    <!-- Разметка для поисковиков Open Graph -->
+    <meta property="og:title" content="Рыбное хозяйство &laquo;Овтеено&raquo;"/>
+    <meta property="og:description" content="КФХ &laquo;Овтеено&raquo;. Профиль: прудовое рыбоводство. Мы находимся: Воронежская обл. Россошанский район, между селами Славянка и Никоноровка. Телефоны: +7&nbsp;(47396)&nbsp;7-25-94;
+    +7&nbsp;(920)&nbsp;423-42-50"/>
+    <meta property="og:image" content="http://xn--80ab4bagcia8dwat.xn--p1ai/images/caras12.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content= "http://xn--80ab4bagcia8dwat.xn--p1ai/" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="Рыбное хозяйство &laquo;Овтеено&raquo;" />
+    <!-- Разметка для поисковиков JSON-LD -->
+    <script type="application/ld+json">
+{
+  "description": "\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u043c \u0432\u0438\u0434\u043e\u043c \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0440\u044b\u0431\u0445\u043e\u0437\u0430 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0438\u0437\u00ad\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0439 \u0436\u0438\u0432\u043e\u0439 \u0440\u044b\u0431\u044b, \u0440\u044b\u0431\u043e\u043f\u043e\u0441\u0430\u0434\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430 \u0438 \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0436\u0438\u0432\u043e\u0439 \u0440\u044b\u0431\u044b. \u041d\u0430 \u0440\u044b\u0431\u0445\u043e\u0437\u0435 \u0432\u044b\u0440\u0430\u00ad\u0449\u0438\u00ad\u0432\u0430\u044e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u0440\u044b\u0431: \u043a\u0430\u0440\u043f, \u0431\u0435\u043b\u044b\u0439 \u0430\u043c\u0443\u0440, \u0442\u043e\u043b\u0441\u0442\u043e\u043b\u043e\u0431\u0438\u043a, \u043a\u0430\u0440\u0430\u0441\u044c, \u0449\u0443\u043a\u0430, \u0441\u043e\u043c. \u041a\u0430\u0440\u043f \u0432\u044b\u0440\u0430\u0449\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0447\u0435\u0448\u0443\u0439\u00ad\u0447\u0430\u00ad\u0442\u044b\u0439, \u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u044b\u0439, \u0433\u043e\u043b\u044b\u0439. \u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0435\u0439 \u0440\u044b\u0431\u0445\u043e\u0437\u0430 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043a\u0430\u0440\u043f \u0438 \u0442\u043e\u043b\u0441\u0442\u043e\u043b\u043e\u0431\u0438\u043a.",
+  "telephone": "+7 (47396) 7-25-94",
+  "address": {
+    "addressCountry": "\u0420\u043e\u0441\u0441\u0438\u044f",
+    "addressLocality": "\u0420\u043e\u0441\u0441\u043e\u0448\u0430\u043d\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+    "addressRegion": "\u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+    "streetAddress": "\u043c\u0435\u0436\u0434\u0443 \u0441\u0435\u043b\u0430\u043c\u0438 \u0421\u043b\u0430\u0432\u044f\u043d\u043a\u0430 \u0438 \u041d\u0438\u043a\u043e\u043d\u043e\u0440\u043e\u0432\u043a\u0430",
+    "postalCode": "396650",
+    "@type": "PostalAddress"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+7(920) 423-4250"
+  },
+  "hasMap": "https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AtPDFh3_hX9wtMqcAH_NCmUO2CBZ9QlL&amp;width=600&amp;height=550&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true",
+  "@context": "http://www.schema.org",
+  "name": "\u041a\u0440\u0435\u0441\u0442\u044c\u044f\u043d\u0441\u043a\u043e-\u0444\u0435\u0440\u043c\u0435\u0440\u0441\u043a\u043e\u0435 \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u043e \u0440\u044b\u0431\u0445\u043e\u0437 '\u041e\u0412\u0422\u0415\u0415\u041d\u041e'",
+  "geo": {
+    "latitude": "50.197747",
+    "@type": "GeoCoordinates",
+    "longitude": "39.800928"
+  },
+  "@type": "LocalBusiness",
+  "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 08:00-21:00",
+  "email": "eo230674@mail.ru"
+}
+    </script>
+
 </head>
 <body onload="init();">
 <div class="container">
@@ -25,14 +69,14 @@
     </div>
 </div>
 <div class="container">
-    <div class="ryba1"></div>
+    <div class="fish"></div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div>
                 <h3 style="color: #0f0f0f; font-size: 30px"> О компании</h3>
-                <p class="compania"> Рыбхоз был основан в 2000 году, находится в частной собственности и на сегодняшний день является круп&shy;ным рыбным хозяйством Воронежской области.
+                <p class="company"> Рыбхоз был основан в 2000 году, находится в частной собственности и на сегодняшний день является круп&shy;ным рыбным хозяйством Воронежской области.
                     Основным видом деятельности рыбхоза является произ&shy;водство товарной живой рыбы, рыбопосадочного материала и реализация живой рыбы.
                     На рыбхозе выра&shy;щи&shy;вают несколько видов рыб: карп, белый амур, толстолобик, карась, щука, сом. Карп выращивается чешуй&shy;ча&shy;тый, зеркальный, голый.
                     Основной продукцией рыбхоза является карп и толстолобик. Карп — самая доступ&shy;ная российскому покупателю рыба, имеет жирное мясо содержащее
@@ -82,94 +126,94 @@
 <div class="container">
     <h3 style="color: #0f0f0f; font-size: 30px; margin-top: 30px">Галерея</h3>
     <div id="container">
-        <div class="row galery">
+        <div class="row gallery">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album1b.png" title="Садки готовой для продажи рыбы с проточной водой">
                         <img src="images/album1m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album6b.png" title="Садки для временного содержания рыбы">
                         <img src="images/album6m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album3b.png" title="Зимовальный пруд">
                         <img src="images/album3m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album4b.png">
                         <img src="images/album4m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album5b.png" title="Зимовальный пруд">
                         <img src="images/album5m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album2b.png" title="Живорыбная база">
                         <img src="images/album2m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album10b.png" title="Карп зеркальный, чешуйчатый, голый">
                         <img src="images/album10m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album11b.png" title="Карп 2 - 4кг">
                         <img src="images/album11m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album12b.png" title="Утренняя заря над прудом">
                         <img src="images/album12m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb " rel="fancybox-thumb" href="images/album7b.png" title="Живорыбная база">
                         <img src="images/album7m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album8b.png" title="Толстолобик гибрид по белой самке">
                         <img src="images/album8m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album9b.png" title="Толстолобик 3-6 кг">
                         <img src="images/album9m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album13b.png" title="Матки карпа">
                         <img src="images/album13m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album14b.png" title="Каскад прудов">
                         <img src="images/album14m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album15b.png" title="Мальковые пруды">
                         <img src="images/album15m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album16b.png">
                         <img src="images/album16m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album17b.png">
                         <img src="images/album17m.png" alt=""/>
                     </a>
                 </div>
-                <div class="galery-block">
+                <div class="gallery-block">
                     <a class="fancybox-thumb" rel="fancybox-thumb" href="images/album18b.png">
                         <img src="images/album18m.png" alt=""/>
                     </a>
@@ -178,26 +222,26 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container vcard">
     <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 contacs">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 contacts">
             <h2 style="text-align: center">Контакты</h2>
             <br>
             <h3 style="text-align: center">Глава хозяйства: Окрушко Евгений Владимирович</h3>
-            <p style="text-align: center;font-size: 17px">Россошь, Воронежская область и регионы РФ:</p>
-            <p style="padding-left: 55px; font-size: 17px">телефоны: +7&nbsp;(47396)&nbsp;7-25-94</p>
-            <p style="padding-left: 145px; font-size: 17px">+7&nbsp;(47396)&nbsp;5-88-78</p>
-            <p style="padding-left: 145px; font-size: 17px">+7&nbsp;(47396)&nbsp;2-55-66</p>
-            <p style="padding-left: 145px; font-size: 17px">+7&nbsp;(47396)&nbsp;5-14-87</p>
-            <p style="padding-left: 55px;font-size: 17px">тел сотовый: +7&nbsp;(920)&nbsp;423-42-50</p>
-            <p style="padding-left: 55px;font-size: 17px">e-mail: eo230674@mail.ru</p>
+            <p style="text-align: center;font-size: 17px"><span class="locality">Россошь</span>, Воронежская область и регионы РФ:</p>
+            <p style="padding-left: 55px; font-size: 17px">телефоны: <abbr class="tel" title="+ 7 (47396) 7-25-94">+7&nbsp;(47396)&nbsp;7-25-94</abbr></p>
+            <p style="padding-left: 145px; font-size: 17px"><abbr class="tel" title="+ 7 (47396) 5-88-78">+7&nbsp;(47396)&nbsp;5-88-78</abbr></p>
+            <p style="padding-left: 145px; font-size: 17px"><abbr class="tel" title="+ 7 (47396) 2-55-66">+7&nbsp;(47396)&nbsp;2-55-66</abbr></p>
+            <p style="padding-left: 145px; font-size: 17px"><abbr class="tel" title="+ 7 (47396) 5-14-87">+7&nbsp;(47396)&nbsp;5-14-87</abbr></p>
+            <p style="padding-left: 55px;font-size: 17px">тел сотовый: <abbr class="tel" title="+ 7 (920) 423-42-50">+7&nbsp;(920)&nbsp;423-42-50</abbr></p>
+            <p style="padding-left: 55px;font-size: 17px">e-mail: <a class="email" href="mailto:eo230674@mail.ru">eo230674@mail.ru</a></p>
             <p style="text-align: center; font-size: 20px; font-weight: bolder">Работаем без выходных!</p>
             <p style="text-align: center; font-size: 18px; font-weight: bolder">Производим оптовую и розничную продажу.</p>
             <p style="text-align: center; font-size: 20px; font-weight: bolder">Цены уточняйте по телефону.</p>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <p style="color: #0f0f0f; font-size: 30px; font-weight: bold">Как нас найти:</p>
-            <p style="font-size: 15px; font-weight: bold">Воронежская обл. Россошанский район, между селами Славянка и Никоноровка.</p>
+            <p style="font-size: 15px; font-weight: bold"><span class="region">Воронежская обл. Россошанский район</span>, <span class="extended-address">между селами Славянка и Никоноровка</span>.</p>
             <br>
             <div>
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AtPDFh3_hX9wtMqcAH_NCmUO2CBZ9QlL&amp;width=600&amp;height=550&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
@@ -207,7 +251,7 @@
 </div>
 <div class="container-fluid" style="background-color: #0f0f0f; height: 30px">
     <p style="color: white; text-align: center; vertical-align: middle">
-        © Крестьянско-фермерское хозяйство рыбхоз "ОВТЕЕНО" 2017
+        © <a class="fn org url" href="http://xn--80ab4bagcia8dwat.xn--p1ai/">Крестьянско-фермерское хозяйство рыбхоз "ОВТЕЕНО"</a> 2017
     </p>
 </div>
 <script src="js/jquery-3.1.1.min.js"></script>

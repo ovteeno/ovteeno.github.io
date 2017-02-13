@@ -14,28 +14,20 @@ h2{
     text-align: center;
     height: 300px !important;
 }
-.carousel{
-    margin-top: 20px;
-}
 
 .img {
     display: table-cell;
     text-align: center;
     vertical-align:middle;
 }
+
 body{
-    background-attachment: fixed;
-    background-image: url('../images/more2.png');
-    background-repeat: no-repeat, no-repeat;
+    background: url('../images/sea.png') no-repeat, no-repeat fixed;
     background-size: cover;
 }
 
-.cena{
-    font-size: 25px;
-    font-weight: bold;
-}
-.compania{
-    font-size: 23.4px;
+.company{
+    font-size: 23px;
     padding: 10px;
 
 }
@@ -48,8 +40,9 @@ table{
     font-size: 14px;
     width: auto;
     border:none;
-    border-top:0px solid red;
+    border-top:0 solid red;
 }
+
 td{
     color: black;
     padding: 5px;
@@ -63,26 +56,22 @@ caption{
     color: #547901;
 }
 
-.galery img{
+.gallery img{
     width: 280px;
     height: 280px;
 }
 
-.galery-block{
+.gallery-block{
     display: inline;
 }
 
-.contacs{
+.contacts{
     background: url('../images/contacs.png')  center center no-repeat;
     height: 783px;
     width: 476px;
 }
-.ryba{
-    background: url('../images/caras12.png') no-repeat right;
-    margin-top: 30px;
-}
 
-.ryba1{
-    background: url('../images/ryba.png') no-repeat center;
+.fish{
+    background: url('../images/fish.png') no-repeat center;
     height: 350px;
 }

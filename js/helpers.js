@@ -1,7 +1,3 @@
-function popap() {
-    alert('Yeapp!');
-}
-
 function init() {
     $(document).ready(function() {
         $(".fancybox-thumb").fancybox({
